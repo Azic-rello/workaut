@@ -20,3 +20,9 @@ export const writeC = [
     info: "Expert assistance whenever you need it",
   },
 ];
+export const colors = [
+  {
+    qizil: "#D90A14",
+    olov: "#CD4E17",
+  },
+];
