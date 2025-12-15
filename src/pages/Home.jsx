@@ -1,7 +1,11 @@
-import React from "react";
+import FitMaker from "../components/FitMaker";
 
 const Home = () => {
-  return <div>Home</div>;
-};
+  return( 
+     <div>
+      <FitMaker/>
+     </div>
+  )
+}
 
-export default Home;
+export default Home
