@@ -2,12 +2,12 @@ import logo from "../assets/logo.png";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-around text-white items-center h-[80px]">
+    <div className="flex items-center justify-around h-20 text-white">
       <div className="flex flex-col items-center">
         <img src={logo} alt="jpg" />
         <h1 className="text-sm">Transform Your Body</h1>
       </div>
-      <ul className="flex gap-12 items-center text-xl font-extrabold">
+      <ul className="flex items-center gap-12 text-xl font-extrabold">
         <li className="hover:text-[#e50000] cursor-pointer">Home</li>
         <li className="hover:text-[#e50000] cursor-pointer">About</li>
         <li className="hover:text-[#e50000] cursor-pointer">Contact</li>

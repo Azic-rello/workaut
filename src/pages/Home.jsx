@@ -6,6 +6,8 @@ import MeetOurTrainers from "../components/MeetOurTrainers";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import WriteCard from "../components/WriteCard";
+import FitMaker from "../components/FitMaker";
+import Futer from "../components/Futer";
 
 const Home = () => {
   return (
@@ -17,8 +19,10 @@ const Home = () => {
       <OurFitnessTools />
       <WhatOurCustomersSay />
       <MeetOurTrainers />
+      <FitMaker />
+      <Futer/>
     </div>
   );
 };
 
-export default Home
+export default Home;
